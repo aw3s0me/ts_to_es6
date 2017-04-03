@@ -1,0 +1,16 @@
+{
+  "name": "ts-to-es6",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "prepublish": "typings install",
+    "watch": "webpack --watch"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.12",
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.2.2",
+    "typings": "^2.1.0",
+    "webpack": "^2.3.3"
+  }
+}
