@@ -1,10 +1,14 @@
+var fs = require('fs');
+var path = require('path');
+var webpack = require('webpack');
+
 /**
  * Created by korovin on 4/3/2017.
  */
 module.exports = {
-    entry: './src/app.ts',
+    entry: './app.ts',
     output: {
-        path: './lib',
+        path: path.resolve(__dirname, './lib'),
         filename: 'bundle.js'
     },
     resolve: {
